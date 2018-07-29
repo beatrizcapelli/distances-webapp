@@ -1,0 +1,42 @@
+.navbar-static-top {
+	margin-bottom: 20px;
+}
+
+i.lateral-icon {
+	font-size: 1.5em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+i.home-icon {
+	padding-top: 12px;
+	font-size: 1.8em;
+	vertical-align: center;
+	color: white !important;
+}
+
+.blue-button {
+	background-color: #337ab7;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.nav>li>a {
+	color: #787878;
+}
+
+iframe {
+	border-radius: 5px;
+}
+
+footer {
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: red;
+}
+
+#map {
+  height: 100%;
+}

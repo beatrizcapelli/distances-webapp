@@ -1,0 +1,78 @@
+<hr>
+<form name="myForm" id="myForm" method="post" role="form"></form>
+<ul class="nav nav-pills">
+	<li><a class="pill-button"
+		onClick="submitForm('alphabetical', 'alphabetical-table')"
+		data-toggle="pill" href="#order-alphabetical">Alphabetical</a></li>
+	<li><a class="pill-button"
+		onClick="submitForm('smallest', 'small-cities-table')"
+		data-toggle="pill" href="#order-small-cities">Smallest Cities</a></li>
+	<li><a class="pill-button"
+		onClick="submitForm('biggest', 'big-cities-table')" data-toggle="pill"
+		href="#order-big-cities">Biggest Cities</a></li>
+	<li><a class="pill-button"
+		onClick="submitForm('distances', 'distances-table')"
+		data-toggle="pill" href="#order-distances">Distances</a></li>
+</ul>
+<hr>
+
+<div class="tab-content">
+
+	<div id="order-alphabetical" class="tab-pane fade in active">
+		<div class="table-responsive">
+			<table class="table table-striped" id="alphabetical-table">
+				<thead>
+					<tr id="alphabetical-row">
+						<th id="alphabetical-state">State</th>
+						<th id="alphabetical-city">Cities (A - Z)</th>
+					</tr>
+				</thead>
+				<tbody />
+			</table>
+		</div>
+	</div>
+
+	<div id="order-small-cities" class="tab-pane fade">
+		<div class="table-responsive">
+			<table class="table table-striped" id="small-cities-table">
+				<thead>
+					<tr id="small-cities-row">
+						<th id="small-cities-state">State</th>
+						<th id="small-cities-city">Cities (Population)</th>
+					</tr>
+				</thead>
+				<tbody />
+			</table>
+		</div>
+	</div>
+
+	<div id="order-big-cities" class="tab-pane fade">
+		<div class="table-responsive">
+			<table class="table table-striped" id="big-cities-table">
+				<thead>
+					<tr id="big-cities-row">
+						<th id="big-cities-state">State</th>
+						<th id="big-cities-city">Cities (Population)</th>
+					</tr>
+				</thead>
+				<tbody />
+			</table>
+		</div>
+	</div>
+
+	<div id="order-distances" class="tab-pane fade">
+		<div class="table-responsive">
+			<table class="table table-striped" id="distances-table">
+				<thead>
+					<tr id="big-cities-row">
+						<th id="big-cities-state">State</th>
+						<th id="big-cities-city">Distance between Biggest Cities (Km)</th>
+					</tr>
+				</thead>
+				<tbody />
+			</table>
+		</div>
+	</div>
+
+<hr>
+</div>
